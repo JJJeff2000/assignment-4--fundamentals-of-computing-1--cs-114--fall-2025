@@ -5,5 +5,4 @@ void setup() {
 
 void draw() {
   drawBoard(height, width);
-  if(phase == 1){botTurn();}
 }
