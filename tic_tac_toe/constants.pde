@@ -1,8 +1,12 @@
-int buttonWidth, buttonHeight;
+boolean a1 = false;
+boolean a2 = false;
+boolean a3 = false;
+boolean b1 = false;
+boolean b2 = false;
+boolean b3 = false;
+boolean c1 = false;
+boolean c2 = false;
+boolean c3 = false;
 
-void setButton(int buttonX, int buttonY){
-  buttonWidth = 166;
-  buttonHeight = 166;
-  fill(100, 150, 200);
-  rect(buttonX, buttonY, buttonWidth, buttonHeight);
-}
+int botChoice;
+int phase = 0;
