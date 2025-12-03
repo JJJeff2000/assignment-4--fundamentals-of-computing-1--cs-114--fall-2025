@@ -238,16 +238,6 @@ void keyPressed(){
   }
 }
 
-
-boolean safeMove(boolean cell, String cellType, String assignType) {
-  if (cell){ 
-    return false;
-  }
-  assignType = "X";
-  turnCount++;
-  return true;
-}
-
 String checkWin(){
   if (a1 && a2 && a3 && a1Type.equals(a2Type) && a2Type.equals(a3Type)){ 
     return a1Type;
