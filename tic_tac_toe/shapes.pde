@@ -1,4 +1,4 @@
-void drawBoard(float x, float y) {
+void drawBoard(float x, float y){
   stroke(0);
   strokeWeight(4);
   line(x/3, 0, x/3, x);

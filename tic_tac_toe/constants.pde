@@ -1,9 +1,23 @@
 boolean a1 = false;
+String a1Type;
 boolean a2 = false;
+String a2Type;
 boolean a3 = false;
+String a3Type;
 boolean b1 = false;
+String b1Type;
 boolean b2 = false;
+String b2Type;
 boolean b3 = false;
+String b3Type;
 boolean c1 = false;
+String c1Type;
 boolean c2 = false;
+String c2Type;
 boolean c3 = false;
+String c3Type;
+
+int botSelection;
+int turnCount = 1;
+boolean gameOver = false;
+String gameResult;
